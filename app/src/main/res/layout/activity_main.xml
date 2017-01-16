@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FF0000"
+    tools:context="com.example.deezy.pokedex.MainActivity">
+
+    <TextView
+        android:id="@+id/topText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="#4 Charmander"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textSize="32sp"
+        android:textColor="#FFFFF0"/>
+    <ImageView
+        android:id="@+id/charmander"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/charmander"
+        android:layout_below="@id/topText"
+        android:layout_centerHorizontal="true"/>
+    <TextView
+        android:id="@+id/bottomText"
+        android:text="The fire on the tip of its tail is a measure of its life. If healthy, its tail burns intensely."
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#FFFFF0"
+        android:layout_below="@id/charmander"
+        android:textSize="24sp"
+        android:padding="16dp"
+        android:layout_margintop="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:gravity="center_horizontal"
+        android:layout_alignParentBottom="true" />
+
+</RelativeLayout>
